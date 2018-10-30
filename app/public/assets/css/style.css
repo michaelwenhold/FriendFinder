@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+form {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h1 {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-control {
+    color: blue;
+    width: 50%
+}
+
+h4 {
+    font-weight: bold;
+    padding-top: 20px;
+}
