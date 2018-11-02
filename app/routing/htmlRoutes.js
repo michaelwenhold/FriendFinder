@@ -11,5 +11,8 @@ module.exports = function (app) {
     app.use(function (req, res) {
         res.sendFile(path.join(__dirname, "./..public/home.html"));
     })
+
+    //To use static CSS file
+    app.use(express.static(path.join(__dirname, "./../public")));
 }
 
