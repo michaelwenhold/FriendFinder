@@ -6,7 +6,7 @@ var path = require("path");
 var app = express();
 
 // Set the port of our application
-var PORT = process.env.PORT || 8080; 
+var PORT = process.env.PORT || 8080;
 
 //Routes for API & HTML files
 var apiRoutes = require("./app/routing/apiRoutes.js");
