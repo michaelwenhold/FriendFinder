@@ -1,4 +1,4 @@
-var friends = [
+var friendList = [
     {
         name: "Crystal",
         image: "",
@@ -81,4 +81,4 @@ var friends = [
     }   
 ];
 
-module.exports = friends
+module.exports = friendList
