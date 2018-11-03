@@ -1,7 +1,7 @@
 var friendList = [
     {
-        name: "Crystal",
-        image: "",
+        name: "Tiger",
+        image: "one.jpg",
         scores: [
             4,
             1,
@@ -16,8 +16,8 @@ var friendList = [
         ]
     },
     {
-        name: "Becca",
-        image: "",
+        name: "Nick",
+        image: "two.jpg",
         scores: [
             4,
             1,
@@ -32,8 +32,8 @@ var friendList = [
         ]
     },
     {
-        name: "Emily",
-        image: "",
+        name: "Mr. Bean",
+        image: "three.jpg",
         scores: [
             2,
             1,
@@ -49,7 +49,7 @@ var friendList = [
     },
     {
         name: "Sara",
-        image: "",
+        image: "four.jpg",
         scores: [
             2,
             1,
@@ -63,38 +63,6 @@ var friendList = [
             5
         ]
     },
-    {
-        name: "Michael",
-        image: "",
-        scores: [
-            1,
-            4,
-            1,
-            5,
-            5,
-            3,
-            1,
-            3,
-            2,
-            5
-        ]
-    },   
-    {
-        name: "Scott",
-        image: "",
-        scores: [
-            3,
-            4,
-            1,
-            1,
-            1,
-            3,
-            1,
-            4,
-            1,
-            3
-        ]
-    },   
 ];
 
 module.exports = friendList
