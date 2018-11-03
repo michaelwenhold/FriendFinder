@@ -13,6 +13,6 @@ module.exports = function(app) {
     })
 
     //To use static CSS file
-    //app.use(express.static(path.join(__dirname, "./../public")));
+    app.use(express.static(path.join(__dirname, "./../public")));
 }
 
